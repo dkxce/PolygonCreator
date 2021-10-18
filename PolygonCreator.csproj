@@ -1,0 +1,63 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17847F65-4B7B-4D15-9ABA-88F3EC46C1A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>PolygonCreator</AssemblyName>
+    <RootNamespace>PolygonCreator</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CuttingGeometries, Version=1.0.7495.17843, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="NaviMapNet, Version=19.10.6.17, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\NaviMapNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MruList.cs" />
+    <Compile Include="PolyCreatorClipper.cs" />
+    <Compile Include="PolyCreatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PolyCreatorForm.designer.cs">
+      <DependentUpon>PolyCreatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PolyLineBuffer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="WaitingForm.cs" />
+    <Compile Include="XMLSaved.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PolyCreatorForm.resx">
+      <DependentUpon>PolyCreatorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
