@@ -1,0 +1,11 @@
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\PolygonCreator.exe
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\PolygonCreator.pdb
+C:\Downloads\TEMP\PolygonCreator\bin\Debug\PolygonCreator.exe.config
+C:\Downloads\TEMP\PolygonCreator\bin\Debug\PolygonCreator.exe
+C:\Downloads\TEMP\PolygonCreator\bin\Debug\PolygonCreator.pdb
+C:\Downloads\TEMP\PolygonCreator\bin\Debug\NaviMapNet.dll
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\PolygonCreator.csproj.AssemblyReference.cache
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\KMZRebuilder.PolyCreator.resources
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\PolygonCreator.csproj.GenerateResource.cache
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\PolygonCreator.csproj.CoreCompileInputs.cache
+C:\Downloads\TEMP\PolygonCreator\obj\Debug\PolygonCreator.csproj.CopyComplete

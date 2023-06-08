@@ -1,0 +1,8 @@
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\obj\Debug\ResolveAssemblyReference.cache
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\obj\Debug\KMZRebuilder.PolyCreator.resources
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\obj\Debug\PolygonCreator.csproj.GenerateResource.Cache
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\bin\Debug\PolygonCreator.exe
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\bin\Debug\PolygonCreator.pdb
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\bin\Debug\NaviMapNet.dll
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\obj\Debug\PolygonCreator.exe
+C:\Downloads\CD-REC\TEST\AGWPEAPI\PolygonCreator\obj\Debug\PolygonCreator.pdb
